@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "HörRaum",
+      "hasCanvas": false,
+      "bodyTextLen": 976,
+      "bodyTextHash": "42d5169ec22c445f29db1a440719b6d98b3a498eacd96d54adef7fb44dc9b067",
+      "bodyTextPrefix": "HÖRVERSTEHEN 1 HörRaum 八个人，各自说一通。你要选出每人真正的立场。先读原文，再对概括句，交卷后对答案。 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "HörRaum",
+      "hasCanvas": false,
+      "bodyTextLen": 976,
+      "bodyTextHash": "42d5169ec22c445f29db1a440719b6d98b3a498eacd96d54adef7fb44dc9b067",
+      "bodyTextPrefix": "HÖRVERSTEHEN 1 HörRaum 八个人，各自说一通。你要选出每人真正的立场。先读原文，再对概括句，交卷后对答案。 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

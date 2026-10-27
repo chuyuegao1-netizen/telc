@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  --color-bg: #f3eee4;
+  --color-paper: #fbf7f0;
+  --color-deep: #e6dfd2;
+  --color-ink: #1c1915;
+  --color-muted: #6d655c;
+  --color-line: #d8d0c3;
+  --color-primary: #1f4d45;
+  --color-primary-fg: #f6f3ec;
+  --color-accent: #c4522a;
+  --color-good: #246b45;
+  --color-good-bg: #e5f0e6;
+  --color-bad: #9c341f;
+  --color-bad-bg: #f8e6df;
+  --color-mark: #efe2c0;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background-color: var(--color-bg);
+    background-image: linear-gradient(180deg, var(--color-paper) 0%, var(--color-bg) 22rem);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
